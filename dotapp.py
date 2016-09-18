@@ -34,7 +34,6 @@ for match in matchList:
             if int(player["player_slot"]) in [128,129,130,131,132]: #dire heroes slot numbers declared by dota 2 api
                 winnerTeamPlayers.append(player["hero_id"])
 
-    
     listOfWinnerTeamHeroes.append(sorted(winnerTeamPlayers,key=int))
 
 
